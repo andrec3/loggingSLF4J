@@ -1,7 +1,3 @@
-# loggingSLF4J
-
-
-
 ## Logging in a Java project with Maven, SLF4J API and Backlog framework
 
 **Note**
