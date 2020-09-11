@@ -1,0 +1,44 @@
+2020-09-10 19:55:41,891 DEBUG com.cruzandre.loggingSLF4J.App [main] Debug log message
+2020-09-10 19:55:41,894 INFO com.cruzandre.loggingSLF4J.App [main] Info log message
+2020-09-10 19:55:41,895 ERROR com.cruzandre.loggingSLF4J.App [main] Error log message
+20:00:13 [main] DEBUG com.cruzandre.loggingSLF4J.App - Debug log message
+20:00:13 [main] INFO com.cruzandre.loggingSLF4J.App - Info log message
+20:00:13 [main] ERROR com.cruzandre.loggingSLF4J.App - Error log message
+10 set 2020;20:04:00 [main] INFO com.cruzandre.loggingSLF4J.TestLogger - This is how you configure Logback with SLF4J
+10 set 2020;20:04:00 [main] INFO com.cruzandre.loggingSLF4J.TestLogger - Bad experience for user cruz
+10 set 2020;20:04:00 [main] INFO com.cruzandre.loggingSLF4J.TestLogger - Bad experience for user {}
+10 set 2020;20:04:00 [main] INFO com.cruzandre.loggingSLF4J.TestLogger - Bad experience for user cruz at time Thu Sep 10 20:04:00 EDT 2020
+10 set 2020;20:04:00 [main] DEBUG com.cruzandre.loggingSLF4J.TestLogger - Hello from Logback
+10 set 2020;20:04:00 [main] DEBUG com.cruzandre.loggingSLF4J.TestLogger - getNumber() : 5
+10 set 2020;20:04:00 [main] INFO com.cruzandre.loggingSLF4J.TestLogger - Bad experience for user cruz at time 10-09-2020 20:04 while accessing gateway
+10 09 2020;20:08:46 [main] INFO com.cruzandre.loggingSLF4J.TestLogger - This is how you configure Logback with SLF4J
+10 09 2020;20:08:46 [main] INFO com.cruzandre.loggingSLF4J.TestLogger - Bad experience for user cruz
+10 09 2020;20:08:46 [main] INFO com.cruzandre.loggingSLF4J.TestLogger - Bad experience for user {}
+10 09 2020;20:08:46 [main] INFO com.cruzandre.loggingSLF4J.TestLogger - Bad experience for user cruz at time Thu Sep 10 20:08:46 EDT 2020
+10 09 2020;20:08:46 [main] DEBUG com.cruzandre.loggingSLF4J.TestLogger - Hello from Logback
+10 09 2020;20:08:46 [main] DEBUG com.cruzandre.loggingSLF4J.TestLogger - getNumber() : 5
+10 09 2020;20:08:46 [main] INFO com.cruzandre.loggingSLF4J.TestLogger - Bad experience for user cruz at time 10-09-2020 20:08 while accessing gateway
+10-09-2020 20:09:38 [main] DEBUG com.cruzandre.loggingSLF4J.App - Debug log message
+10-09-2020 20:09:38 [main] INFO com.cruzandre.loggingSLF4J.App - Info log message
+10-09-2020 20:09:38 [main] ERROR com.cruzandre.loggingSLF4J.App - Error log message
+
+
+10-09-2020 20:20:57 [main] INFO com.cruzandre.loggingSLF4J.TestLogger - This is how you configure Logback with SLF4J
+10-09-2020 20:20:57 [main] INFO com.cruzandre.loggingSLF4J.TestLogger - Bad experience for user cruz
+10-09-2020 20:20:57 [main] INFO com.cruzandre.loggingSLF4J.TestLogger - Bad experience for user {}
+10-09-2020 20:20:57 [main] INFO com.cruzandre.loggingSLF4J.TestLogger - Bad experience for user cruz at time Thu Sep 10 20:20:57 EDT 2020
+10-09-2020 20:20:57 [main] DEBUG com.cruzandre.loggingSLF4J.TestLogger - Hello from Logback
+10-09-2020 20:20:57 [main] DEBUG com.cruzandre.loggingSLF4J.TestLogger - getNumber() : 5
+10-09-2020 20:20:57 [main] INFO com.cruzandre.loggingSLF4J.TestLogger - Bad experience for user cruz at time 10-09-2020 20:20 while accessing gateway
+10-09-2020 20:23:41 [main] DEBUG com.cruzandre.loggingSLF4J.App - Debug log message
+10-09-2020 20:23:41 [main] INFO com.cruzandre.loggingSLF4J.App - Info log message
+10-09-2020 20:23:41 [main] ERROR com.cruzandre.loggingSLF4J.App - Error log message
+10-09-2020 20:24:22 [main] DEBUG com.cruzandre.loggingSLF4J.App - Debug log message
+10-09-2020 20:24:22 [main] INFO com.cruzandre.loggingSLF4J.App - Info log message
+10-09-2020 20:24:22 [main] ERROR com.cruzandre.loggingSLF4J.App - Error log message
+10-09-2020 20:30:21 [main] DEBUG com.cruzandre.loggingSLF4J.App - Debug log message
+10-09-2020 20:30:21 [main] INFO com.cruzandre.loggingSLF4J.App - Info log message
+10-09-2020 20:30:21 [main] ERROR com.cruzandre.loggingSLF4J.App - Error log message
+10-09-2020 20:45:30 [main] DEBUG com.cruzandre.loggingSLF4J.App - Debug log message
+10-09-2020 20:45:30 [main] INFO com.cruzandre.loggingSLF4J.App - Info log message
+10-09-2020 20:45:30 [main] ERROR com.cruzandre.loggingSLF4J.App - Error log message

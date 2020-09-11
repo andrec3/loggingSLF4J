@@ -1,0 +1,156 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+  <head>
+    <title>Logback Log Messages</title>
+<style  type="text/css">
+table { margin-left: 2em; margin-right: 2em; border-left: 2px solid #AAA; }
+TR.even { background: #FFFFFF; }
+TR.odd { background: #EAEAEA; }
+TR.warn TD.Level, TR.error TD.Level, TR.fatal TD.Level {font-weight: bold; color: #FF4040 }
+TD { padding-right: 1ex; padding-left: 1ex; border-right: 2px solid #AAA; }
+TD.Time, TD.Date { text-align: right; font-family: courier, monospace; font-size: smaller; }
+TD.Thread { text-align: left; }
+TD.Level { text-align: right; }
+TD.Logger { text-align: left; }
+TR.header { background: #596ED5; color: #FFF; font-weight: bold; font-size: larger; }
+TD.Exception { background: #A2AEE8; font-family: courier, monospace;}
+</style>
+
+  </head>
+<body>
+<hr/>
+<p>Log session start time Thu Sep 10 20:42:33 EDT 2020</p><p></p>
+
+<table cellspacing="0">
+<tr class="header">
+<td class="RelativeTime">RelativeTime</td>
+<td class="Thread">Thread</td>
+<td class="MDC">MDC</td>
+<td class="Level">Level</td>
+<td class="Logger">Logger</td>
+<td class="Message">Message</td>
+</tr>
+
+
+<tr class="info even">
+<td class="RelativeTime">173</td>
+<td class="Thread">main</td>
+<td class="MDC"></td>
+<td class="Level">INFO</td>
+<td class="Logger">com.cruzandre.loggingSLF4J.TestLogger</td>
+<td class="Message">This is how you configure Logback with SLF4J</td>
+</tr>
+
+<tr class="info odd">
+<td class="RelativeTime">175</td>
+<td class="Thread">main</td>
+<td class="MDC"></td>
+<td class="Level">INFO</td>
+<td class="Logger">com.cruzandre.loggingSLF4J.TestLogger</td>
+<td class="Message">Bad experience for user cruz</td>
+</tr>
+
+<tr class="info even">
+<td class="RelativeTime">176</td>
+<td class="Thread">main</td>
+<td class="MDC"></td>
+<td class="Level">INFO</td>
+<td class="Logger">com.cruzandre.loggingSLF4J.TestLogger</td>
+<td class="Message">Bad experience for user {}</td>
+</tr>
+
+<tr class="info odd">
+<td class="RelativeTime">176</td>
+<td class="Thread">main</td>
+<td class="MDC"></td>
+<td class="Level">INFO</td>
+<td class="Logger">com.cruzandre.loggingSLF4J.TestLogger</td>
+<td class="Message">Bad experience for user cruz at time Thu Sep 10 20:42:33 EDT 2020</td>
+</tr>
+
+<tr class="debug even">
+<td class="RelativeTime">177</td>
+<td class="Thread">main</td>
+<td class="MDC"></td>
+<td class="Level">DEBUG</td>
+<td class="Logger">com.cruzandre.loggingSLF4J.TestLogger</td>
+<td class="Message">Hello from Logback</td>
+</tr>
+
+<tr class="debug odd">
+<td class="RelativeTime">177</td>
+<td class="Thread">main</td>
+<td class="MDC"></td>
+<td class="Level">DEBUG</td>
+<td class="Logger">com.cruzandre.loggingSLF4J.TestLogger</td>
+<td class="Message">getNumber() : 5</td>
+</tr>
+
+<tr class="info even">
+<td class="RelativeTime">178</td>
+<td class="Thread">main</td>
+<td class="MDC"></td>
+<td class="Level">INFO</td>
+<td class="Logger">com.cruzandre.loggingSLF4J.TestLogger</td>
+<td class="Message">Bad experience for user cruz at time 10-09-2020 20:42 while accessing gateway</td>
+</tr>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+  <head>
+    <title>Logback Log Messages</title>
+<style  type="text/css">
+table { margin-left: 2em; margin-right: 2em; border-left: 2px solid #AAA; }
+TR.even { background: #FFFFFF; }
+TR.odd { background: #EAEAEA; }
+TR.warn TD.Level, TR.error TD.Level, TR.fatal TD.Level {font-weight: bold; color: #FF4040 }
+TD { padding-right: 1ex; padding-left: 1ex; border-right: 2px solid #AAA; }
+TD.Time, TD.Date { text-align: right; font-family: courier, monospace; font-size: smaller; }
+TD.Thread { text-align: left; }
+TD.Level { text-align: right; }
+TD.Logger { text-align: left; }
+TR.header { background: #596ED5; color: #FFF; font-weight: bold; font-size: larger; }
+TD.Exception { background: #A2AEE8; font-family: courier, monospace;}
+</style>
+
+  </head>
+<body>
+<hr/>
+<p>Log session start time Thu Sep 10 20:42:47 EDT 2020</p><p></p>
+
+<table cellspacing="0">
+<tr class="header">
+<td class="RelativeTime">RelativeTime</td>
+<td class="Thread">Thread</td>
+<td class="MDC">MDC</td>
+<td class="Level">Level</td>
+<td class="Logger">Logger</td>
+<td class="Message">Message</td>
+</tr>
+
+
+<tr class="debug even">
+<td class="RelativeTime">158</td>
+<td class="Thread">main</td>
+<td class="MDC"></td>
+<td class="Level">DEBUG</td>
+<td class="Logger">com.cruzandre.loggingSLF4J.App</td>
+<td class="Message">Debug log message</td>
+</tr>
+
+<tr class="info odd">
+<td class="RelativeTime">160</td>
+<td class="Thread">main</td>
+<td class="MDC"></td>
+<td class="Level">INFO</td>
+<td class="Logger">com.cruzandre.loggingSLF4J.App</td>
+<td class="Message">Info log message</td>
+</tr>
+
+<tr class="error even">
+<td class="RelativeTime">160</td>
+<td class="Thread">main</td>
+<td class="MDC"></td>
+<td class="Level">ERROR</td>
+<td class="Logger">com.cruzandre.loggingSLF4J.App</td>
+<td class="Message">Error log message</td>
+</tr>
